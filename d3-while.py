@@ -1,3 +1,4 @@
+#coding=utf-8
 import random
 
 s = random.randint(2, 9)
