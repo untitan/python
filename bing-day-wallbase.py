@@ -46,8 +46,7 @@ def img_add_desc(file_path):
     ft = ImageFont.truetype("c:/windows/fonts/msyhbd.ttc", 16)
     d = ImageDraw.Draw(img_txt)
     # 调整描述位置
-    d.text((img_txt.size[0] / 2 - len(img_desc) * 5, img_txt.size[1] - 70), img_desc, font=ft,
-           fill=(255, 255, 255, 255))
+    d.text((img_txt.size[0] / 2 - len(img_desc) * 5, img_txt.size[1] - 70), img_desc, font=ft, fill=(255, 255, 255, 255))
     out = Image.alpha_composite(img, img_txt)
     out.save(file_path, 'PNG')
 
