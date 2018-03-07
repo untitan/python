@@ -4,6 +4,7 @@ import json
 import os.path
 import urllib.request
 
+# 需要PIL库
 from PIL import Image, ImageDraw, ImageFont
 
 img_desc = ""
