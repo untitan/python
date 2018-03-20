@@ -1,8 +1,8 @@
 import sched
-import time
-import daemon
 
-schedule = sched.scheduler(time.time, time.sleep)
+from 练习 import time
+
+schedule = sched.scheduler(练习.time, time.sleep)
 
 def task():
     schedule.enter(10, 1, print_time)
@@ -12,7 +12,7 @@ def task():
 
 
 def print_time():
-    print(time.time())
+    print(练习.time())
 
 
 task()

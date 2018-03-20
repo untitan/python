@@ -11,3 +11,7 @@ elif x == y:
     print("x[%s] = y[%s]" % (x, y))
 else:
     print("x[%s] < y[%s]" % (x, y))
+
+print(2 ** 3)
+
+print(-3 * 2 + 4)

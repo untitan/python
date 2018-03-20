@@ -10,3 +10,5 @@ print("c:\\temp")
 
 s = "你好，\n再见"
 print(s)
+
+
